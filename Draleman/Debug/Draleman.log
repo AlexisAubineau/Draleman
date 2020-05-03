@@ -1,5 +1,4 @@
 ﻿  Game.cpp
-  main.cpp
-  State.cpp
+  GameState.cpp
   Génération de code en cours...
-  Draleman.vcxproj -> \\Mac\Home\Desktop\Draleman\Debug\Draleman.exe
+  Draleman.vcxproj -> I:\Users\Desktop\Draleman\Debug\Draleman.exe
