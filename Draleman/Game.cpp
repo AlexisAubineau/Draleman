@@ -30,15 +30,25 @@ void Game::initWindow()
     this->window->setVerticalSyncEnabled(vertical_sync_enabled);
 }
 
+void Game::initKeys()
+{
+    this->supportedKeys.emplace("Escape", sf::Keyboard::Key::Escape);
+    this->supportedKeys.emplace("Q", sf::Keyboard::Key::Q);
+    this->supportedKeys.emplace("D", sf::Keyboard::Key::D);
+    this->supportedKeys.emplace("Z", sf::Keyboard::Key::Z);
+    this->supportedKeys.emplace("S", sf::Keyboard::Key::S);
+}
+
 void Game::initStates()
 {
-    this->states.push(new GameState(this->window));
+    this->states.push(new GameState(this->window, &this->supportedKeys));
 }
 
 //Contructors/Deconstructors
 Game::Game()
 {
     this->initWindow();
+    this->initKeys();
     this->initStates();
 }
 
