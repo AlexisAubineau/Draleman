@@ -19,8 +19,8 @@ private:
 	
 	//Initialization
 	void initWindow();
-	void initStates();
 	void initKeys();
+	void initStates();
 	
 public:
 
