@@ -1,4 +1,9 @@
-﻿  MainMenuState.cpp
+﻿  Button.cpp
+  Entity.cpp
+  Game.cpp
+  GameState.cpp
+  main.cpp
+  MainMenuState.cpp
 I:\Users\Desktop\Draleman\Draleman\MainMenuState.cpp(42,78): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
           with
           [
@@ -18,5 +23,8 @@ I:\Users\Desktop\Draleman\Draleman\MainMenuState.cpp(42,57): warning C4244: 'arg
               T=float
           ]
   State.cpp
-  Génération de code en cours...
-  Draleman.vcxproj -> I:\Users\Desktop\Draleman\Debug\Draleman.exe
+  Génération de code en cours
+  Previous IPDB not found, fall back to full compilation.
+  All 537 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Fin de la génération du code
+  Draleman.vcxproj -> I:\Users\Desktop\Draleman\Release\Draleman.exe
