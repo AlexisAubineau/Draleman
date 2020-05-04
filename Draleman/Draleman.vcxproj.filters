@@ -19,6 +19,9 @@
     <Filter Include="Entities">
       <UniqueIdentifier>{048a0c85-111f-4577-bcd2-ea1104853f7c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Ressources">
+      <UniqueIdentifier>{2303cea2-2fab-4c29-8a0e-3141d0bf0b51}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -39,6 +42,9 @@
     <ClCompile Include="MainMenuState.cpp">
       <Filter>States</Filter>
     </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Ressources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -55,6 +61,9 @@
     </ClInclude>
     <ClInclude Include="MainMenuState.h">
       <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Ressources</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
