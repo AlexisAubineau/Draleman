@@ -1,2 +1,20 @@
-﻿  Button.cpp
+﻿  MainMenuState.cpp
+I:\Users\Desktop\Draleman\Draleman\MainMenuState.cpp(42,78): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+I:\Users\Desktop\Draleman\Draleman\MainMenuState.cpp(42,57): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
   Draleman.vcxproj -> I:\Users\Desktop\Draleman\Debug\Draleman.exe
