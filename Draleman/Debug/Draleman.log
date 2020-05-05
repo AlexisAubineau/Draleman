@@ -1,2 +1,8 @@
-﻿  MainMenuState.cpp
+﻿  Entity.cpp
+  Game.cpp
+  GameState.cpp
+  MainMenuState.cpp
+  State.cpp
+  main.cpp
+  Génération de code en cours...
   Draleman.vcxproj -> I:\Users\Desktop\Draleman\Debug\Draleman.exe
