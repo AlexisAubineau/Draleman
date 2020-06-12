@@ -49,3 +49,4 @@ void Entity::render(sf::RenderTarget* target)
 {
 	 target->draw( this->sprite);
 }
+ 

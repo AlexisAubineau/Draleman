@@ -60,3 +60,4 @@ void MovementComponent::update(const float& dt)
 	//Final move
 	this->sprite.move(this->velocity * dt); //Uses velocity
 }
+ 
