@@ -40,5 +40,5 @@ public:
 	void move(const float x, const float y, const float& dt);
 	void update(const float& dt);
 };
-
+ 
 #endif // !MOVEMENTCOMPONENT_H
