@@ -78,7 +78,7 @@
       <Filter>Entities</Filter>
     </ClInclude>
     <ClInclude Include="MovementComponent.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Components</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
