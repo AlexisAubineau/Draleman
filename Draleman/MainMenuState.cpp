@@ -15,7 +15,7 @@ void MainMenuState::initBackground()
 		)
 	);
 
-	if (!this->backgroundTexture.loadFromFile("Resources/Images/Backgrounds/bg1.png")) {
+	if (!this->backgroundTexture.loadFromFile(backgroundPath)) {
 		throw"ERROR::MAIN_MENU_STATE::FAILED_TO_LOAD_BACKGROUND_TEXTURE";
 	}
 
@@ -24,7 +24,7 @@ void MainMenuState::initBackground()
 
 void MainMenuState::initFonts()
 {
-	if (!this->font.loadFromFile("Fonts/Dosis-Light.ttf")) {
+	if (!this->font.loadFromFile(fontPath)) {
 		throw("ERROR::MAINMENUSTATE COULD'NT LOAD FONT");
 	}
 }

@@ -22,6 +22,9 @@ private:
 	void initKeybinds();
 	void initButtons();
 
+	sf::String backgroundPath = "Resources/Images/Backgrounds/bg1.png";
+	sf::String fontPath = "Fonts/Dosis-Light.ttf";
+
 public:
 	MainMenuState(sf::RenderWindow* window, std::map<std::string, int>* supportedKeys, std::stack<State*>* states);
 	virtual ~MainMenuState();

@@ -1,10 +1,1 @@
-﻿  Entity.cpp
-  Game.cpp
-  GameState.cpp
-  main.cpp
-  MainMenuState.cpp
-  MovementComponent.cpp
-  Player.cpp
-  State.cpp
-  Génération de code en cours...
-sfml-graphics-d.lib(sfml-graphics-d-2.dll) : fatal error LNK1112: type d'ordinateur module 'x86' en conflit avec le type d'ordinateur cible 'x64'
+﻿sfml-graphics-d.lib(sfml-graphics-d-2.dll) : fatal error LNK1112: type d'ordinateur module 'x86' en conflit avec le type d'ordinateur cible 'x64'
